@@ -14,7 +14,8 @@
             </div>
 
             @unless(count($listings)==0)
-                <div class="table-responsive text-nowrap">
+            
+                <div class="table-responsive text-nowrap" style="min-height: 200px">
                     <table class="table table-hover">
                         <thead>
                         <tr>
