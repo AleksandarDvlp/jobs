@@ -10,7 +10,7 @@ class ListingController extends Controller
 {
     public function index(){
         return view('listings.index',[
-            'listings'=>Listing::latest()->filter(request(['tehnology','search','statusi','job_links']))->paginate(6)]);
+            'listings'=>Listing::latest()->filter(request(['tehnology','search','statusi','job_links']))->paginate(10)]);
             
     }
 
